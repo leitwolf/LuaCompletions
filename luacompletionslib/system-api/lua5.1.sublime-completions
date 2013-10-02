@@ -3,7 +3,7 @@
 	"scope": "source.lua",
 	"completions": 
 	[
-		"arg","and","break","do","else","elseif","end","false","for","function","if","in","local","nil","not","or","repeat","return","then","true","until","while","_G","_VERSION", 
+		"self","this","arg","and","break","do","else","elseif","end","false","for","function","if","in","local","nil","not","or","repeat","return","then","true","until","while","_G","_VERSION", 
 		{ "trigger": "assert(v[,message])", "contents": "assert(${1:v}${2:[,message]})" }, 
 		{ "trigger": "collectgarbage([opt[,arg]])", "contents": "collectgarbage(${1:[opt}${2:[,arg]]})" }, 
 		{ "trigger": "dofile([filename])", "contents": "dofile(${1:[filename]})" }, 
